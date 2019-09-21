@@ -2,18 +2,18 @@
 | initial-access | execution | persistence | privilege-escalation | defense-evasion | credential-access | discovery | lateral-movement | collection | exfiltration | command-and-control |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | Drive-by Compromise  | AppleScript | .bash_profile and .bashrc | Access Token Manipulation | Access Token Manipulation | Account Manipulation | Account Discovery | AppleScript | Audio Capture | Automated Exfiltration  | Commonly Used Port  |
-| Exploit Public-Facing Application  | CMSTP | Accessibility Features | Accessibility Features | BITS Jobs | Bash History | Application Window Discovery | Application Deployment Software  | Automated Collection | Data Compressed | Communication Through Removable Media  |
+| Exploit Public-Facing Application  | CMSTP | Accessibility Features | Accessibility Features | [BITS Jobs](./T1197/T1197.md) | Bash History | Application Window Discovery | Application Deployment Software  | Automated Collection | Data Compressed | Communication Through Removable Media  |
 | External Remote Services  | Command-Line Interface | Account Manipulation | AppCert DLLs  | Binary Padding | Brute Force | Browser Bookmark Discovery | Distributed Component Object Model  | Clipboard Data | Data Encrypted | Connection Proxy |
 | Hardware Additions  | Compiled HTML File | AppCert DLLs  | AppInit DLLs | Bypass User Account Control | Credential Dumping | Domain Trust Discovery | Exploitation of Remote Services  | Data Staged | Data Transfer Size Limits | Custom Command and Control Protocol  |
 | Replication Through Removable Media  | Control Panel Items | AppInit DLLs | Application Shimming | CMSTP | Credentials in Files | File and Directory Discovery | Logon Scripts | Data from Information Repositories  | Exfiltration Over Alternative Protocol | Custom Cryptographic Protocol  |
 | Spearphishing Attachment | Dynamic Data Exchange | Application Shimming | Bypass User Account Control | Clear Command History | Credentials in Registry | Network Service Scanning | Pass the Hash | Data from Local System | Exfiltration Over Command and Control Channel  | Data Encoding |
 | Spearphishing Link  | Execution through API  | Authentication Package  | DLL Search Order Hijacking | Code Signing  | Exploitation for Credential Access  | Network Share Discovery | Pass the Ticket | Data from Network Shared Drive  | Exfiltration Over Other Network Medium  | Data Obfuscation  |
-| Spearphishing via Service  | Execution through Module Load  | BITS Jobs | Dylib Hijacking  | Compile After Delivery  | Forced Authentication  | Network Sniffing | Remote Desktop Protocol | Data from Removable Media  | Exfiltration Over Physical Medium  | Domain Fronting  |
+| Spearphishing via Service  | Execution through Module Load  | [BITS Jobs](./T1197/T1197.md) | Dylib Hijacking  | Compile After Delivery  | Forced Authentication  | Network Sniffing | Remote Desktop Protocol | Data from Removable Media  | Exfiltration Over Physical Medium  | Domain Fronting  |
 | Supply Chain Compromise  | Exploitation for Client Execution  | Bootkit  | Exploitation for Privilege Escalation  | Compiled HTML File | Hooking | Password Policy Discovery | Remote File Copy | Email Collection | Scheduled Transfer  | Domain Generation Algorithms  |
 | Trusted Relationship  | Graphical User Interface  | Browser Extensions | Extra Window Memory Injection  | Component Firmware  | Input Capture | Peripheral Device Discovery  | Remote Services  | Input Capture |  | Fallback Channels  |
-| Valid Accounts  | InstallUtil | Change Default File Association | File System Permissions Weakness  | Component Object Model Hijacking | Input Prompt | Permission Groups Discovery | Replication Through Removable Media  | Man in the Browser  |  | Multi-Stage Channels  |
+| Valid Accounts  | InstallUtil | Change Default File Association | File System Permissions Weakness  | [Component Object Model Hijacking](./T1122/T1122.md) | Input Prompt | Permission Groups Discovery | Replication Through Removable Media  | Man in the Browser  |  | Multi-Stage Channels  |
 |  | LSASS Driver  | Component Firmware  | Hooking | Control Panel Items | Kerberoasting  | Process Discovery | SSH Hijacking  | Screen Capture |  | Multi-hop Proxy  |
-|  | Launchctl | Component Object Model Hijacking | Image File Execution Options Injection | DCShadow | Keychain | Query Registry | Shared Webroot  | Video Capture  |  | Multiband Communication  |
+|  | Launchctl | [Component Object Model Hijacking](./T1122/T1122.md) | Image File Execution Options Injection | DCShadow | Keychain | Query Registry | Shared Webroot  | Video Capture  |  | Multiband Communication  |
 |  | Local Job Scheduling | Create Account | Launch Daemon | DLL Search Order Hijacking | LLMNR/NBT-NS Poisoning and Relay  | Remote System Discovery | Taint Shared Content  |  |  | Multilayer Encryption  |
 |  | Mshta | DLL Search Order Hijacking | New Service | DLL Side-Loading  | Network Sniffing | Security Software Discovery | Third-party Software  |  |  | Port Knocking  |
 |  | PowerShell | Dylib Hijacking  | Path Interception  | Deobfuscate/Decode Files or Information | Password Filter DLL | System Information Discovery | Windows Admin Shares |  |  | Remote Access Tools  |
@@ -68,3 +68,7 @@
 |  |  |  |  | Virtualization/Sandbox Evasion  |  |  |  |  |  |  |
 |  |  |  |  | Web Service  |  |  |  |  |  |  |
 |  |  |  |  | XSL Script Processing |  |  |  |  |  |  |
+
+# Special thanks to
+* <a href="https://twitter.com/CyberRaiju">Jai Minton (@CyberRaiju)</a>
+* <a href="https://github.com/redcanaryco/atomic-red-team">Atomic Red Team</a>
