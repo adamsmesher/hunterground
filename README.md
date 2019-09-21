@@ -15,7 +15,7 @@
 |  | LSASS Driver  | Component Firmware  | Hooking | Control Panel Items | Kerberoasting  | Process Discovery | SSH Hijacking  | Screen Capture |  | Multi-hop Proxy  |
 |  | Launchctl | [Component Object Model Hijacking](./T1122/T1122.md) | Image File Execution Options Injection | DCShadow | Keychain | Query Registry | Shared Webroot  | Video Capture  |  | Multiband Communication  |
 |  | Local Job Scheduling | Create Account | Launch Daemon | DLL Search Order Hijacking | LLMNR/NBT-NS Poisoning and Relay  | Remote System Discovery | Taint Shared Content  |  |  | Multilayer Encryption  |
-|  | Mshta | DLL Search Order Hijacking | New Service | DLL Side-Loading  | Network Sniffing | Security Software Discovery | Third-party Software  |  |  | Port Knocking  |
+|  | Mshta | DLL Search Order Hijacking | [New Service](./T1050/T1050.md) | DLL Side-Loading  | Network Sniffing | Security Software Discovery | Third-party Software  |  |  | Port Knocking  |
 |  | PowerShell | Dylib Hijacking  | Path Interception  | Deobfuscate/Decode Files or Information | Password Filter DLL | System Information Discovery | Windows Admin Shares |  |  | Remote Access Tools  |
 |  | Regsvcs/Regasm | External Remote Services  | Plist Modification | Disabling Security Tools | Private Keys | System Network Configuration Discovery | Windows Remote Management |  |  | Remote File Copy |
 |  | Regsvr32 | File System Permissions Weakness  | Port Monitors  | Execution Guardrails  | Securityd Memory  | System Network Connections Discovery |  |  |  | Standard Application Layer Protocol |
@@ -34,7 +34,7 @@
 |  | Windows Management Instrumentation | Logon Scripts |  | Indicator Blocking  |  |  |  |  |  |  |
 |  | Windows Remote Management | Modify Existing Service |  | Indicator Removal from Tools  |  |  |  |  |  |  |
 |  | XSL Script Processing | Netsh Helper DLL |  | Indicator Removal on Host |  |  |  |  |  |  |
-|  |  | New Service |  | Indirect Command Execution |  |  |  |  |  |  |
+|  |  | [New Service](./T1050/T1050.md) |  | Indirect Command Execution |  |  |  |  |  |  |
 |  |  | Office Application Startup |  | Install Root Certificate |  |  |  |  |  |  |
 |  |  | Path Interception  |  | InstallUtil |  |  |  |  |  |  |
 |  |  | Plist Modification |  | LC_MAIN Hijacking  |  |  |  |  |  |  |
