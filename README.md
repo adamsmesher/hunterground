@@ -71,4 +71,5 @@
 
 # Special thanks to
 * <a href="https://twitter.com/CyberRaiju">Jai Minton (@CyberRaiju)</a>
+* <a href="https://twitter.com/SBousseaden">Samir Bousseaden (@SBousseaden)</a>
 * <a href="https://github.com/redcanaryco/atomic-red-team">Atomic Red Team</a>
